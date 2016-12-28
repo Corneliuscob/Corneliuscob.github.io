@@ -4,12 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">  
     <link rel="stylesheet" href="css/rotate.css" />
+<<<<<<< HEAD
     <!-- <script language="javascript" type="text/javascript" src="js/libraries/p5.js"></script> -->
     <!-- <script language="javascript" src="js/libraries/p5.dom.js"></script> -->
     <!-- <script language="javascript" type="text/javascript" src="js/sketch.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     
     <title> Ngai To's Site </title>
+=======
+    <!-- <script language="javascript" type="text/javascript" src="js/libraries/p5.js"></script>
+    <script language="javascript" src="js/libraries/p5.dom.js"></script>
+    <script language="javascript" type="text/javascript" src="js/sketch.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <title> Ngai To's Site </title>
+>>>>>>> 645c79d8a0f24687d617962484f23af81208a8d6
     <style type="text/css">
       body {margin-left:45px;
             padding:0px;
@@ -183,6 +191,7 @@
       
       <!-- end of one volunteer -->
       </ul><!--endof conferences   -->
+<<<<<<< HEAD
   <p>This is Javascript below taking the time from the api of ubcchemecar.molson....</p>
   <p id="molsonData">2016-12-27T07:23:59.670Z</p>
 <script type="text/javascript">
@@ -194,6 +203,20 @@
 });
 
 </script>
+=======
+      <center>
+      <script>
+        $.get( 'http://molson.ubcchemecar.com/api',function(data){
+          console.log(data);
+          $('#whatTime').html(data['timestamp' ]);
+          
+        });
+      </script>
+      <p id="whatTime">what time is it?</p>
+      <br>
+        <button onclick="myFunction()">Get Time</button>
+      </center>
+>>>>>>> 645c79d8a0f24687d617962484f23af81208a8d6
 
     <hr>
     <p  style="text-align: left;">              
