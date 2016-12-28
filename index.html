@@ -189,20 +189,27 @@
       
       <!-- end of one volunteer -->
       </ul><!--endof conferences   -->
-
+<hr>
+<h3><b>API stuff</b></h3>
 <div class="container"></div>
-<div class= " col-md-4 col-xs-12 col-lg-4"> 
-    <p>This is  the time from the api of molson.ubcchemecar</p>
-    <p id="molsonTime">2016-12-27T07:23:59.670Z</p>
-  
-</div>
-<div class= " col-md-4 col-xs-12 col-lg-4">
-  <p>This is  the temperature from the api of molson.ubcchemecar</p></div>
-  <p id="molsonTemp"></p>
-<div class= " col-md-4 col-xs-12 col-lg-4">
-  <p>This is  the pH from the api of molson.ubcchemecar</p>
-  <p id="molsonPh"></p>
-</div>
+  <div class= " col-md-4 col-xs-12 col-lg-4">
+    <div class="boxbox"> 
+        <p>This is  the time from the api of molson.ubcchemecar</p>
+        <p id="molsonTime">2016-12-27T07:23:59.670Z</p>
+    </div>
+  </div>
+  <div class= " col-md-4 col-xs-12 col-lg-4"> 
+    <div class="boxbox">
+        <p>This is  the temp from the api of molson.ubcchemecar</p>
+        <p id="molsonTemp">2016-12-27T07:23:59.670Z</p>
+    </div>
+  </div>
+  <div class= " col-md-4 col-xs-12 col-lg-4">
+    <div class="boxbox">
+      <p>This is  the pH from the api of molson.ubcchemecar</p>
+      <p id="molsonPh">hi</p>
+    </div>
+  </div>
 </div>
 <br>
 <br>
@@ -225,10 +232,21 @@
       $.get( "http://molson.ubcchemecar.com/api", function( data ) {
         console.log(data);
         $("#molsonTime").html( data['timestamp'] );
-        $("#molsonTemp").html( data['data'] );
-        $("#molsonPh").html( data['data['pH']'] );
+       
       });
-  });
+    });
+    $(function() {
+      $.get( "http://molson.ubcchemecar.com/api", function( data ) {
+        console.log(data.data);
+        $("#molsonTemp").html( data.data['temperature'] );
+      });
+    });
+    $(function() {
+      $.get( "http://molson.ubcchemecar.com/api", function( data ) {
+        console.log(data.data);
+        $("#molsonPh").html( data.data['pH'] );
+      });
+    });
 
   </script>
   </body>
