@@ -18,7 +18,7 @@ function showTime(req) {
 	console.log(typeof(molsonData));
 	console.log(molsonData.timestamp);
 	console.log(typeof(molsonData.timestamp));
-	return(molsonData.timestamp);
+	document.getElementById("whatTime").innerHTML = molsonData.timestamp;
 }
 // function drawTime(){
 // 	textSize(16);
@@ -27,6 +27,7 @@ function showTime(req) {
 // 	console.log("done");
 // }
 
-function myFunction() {
-    document.getElementById("whatTime").innerHTML = showTime();
-}
+// function myFunction() {
+//     document.getElementById("whatTime").innerHTML = showTime();
+// }
+

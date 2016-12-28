@@ -4,10 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">  
     <link rel="stylesheet" href="css/rotate.css" />
-    <!-- <script language="javascript" type="text/javascript" src="js/libraries/p5.js"></script> -->
-    <!-- <script language="javascript" src="js/libraries/p5.dom.js"></script> -->
-    <!-- <script language="javascript" type="text/javascript" src="js/sketch.js"></script> -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        <!-- Animation -->
+        <link rel="stylesheet" href="css/animate.css" />
+        <!-- Main color style -->
+        <link rel="stylesheet" href="css/red.css"/>
+        <!-- Template styles-->
+        <link rel="stylesheet" href="css/custom.css" />
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
     
     <title> Ngai To's Site </title>
     <style type="text/css">
@@ -22,29 +32,33 @@
   <body>
     <header>
        <aside><a href="http://NgaiTo.ubcchemecar.com"></a></aside>
-      <left>
-        <h1>Ngai To Lo</h1>
-        <h2 style = "color:#aaaaaa">Chemical and Biological Engineering</h2>
-      </left>
+      <div class="container">
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <left>
+            <h1>Ngai To Lo</h1>
+            <h2 style = "color:#aaaaaa">Chemical and Biological Engineering</h2>
+          </left>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12"></div>
+      </div>
     </header>
     <hr>
     <hr>
     <br>
-    <center style = "padding-right: 150px">
-    	<table>
-    		<tr>
-          <th>
-              <div class= "rotate90"><IMG ; SRC="images/index/us.jpg" width="auto"; height="100" title = "Me and my girlfriend"></div>
-          </th>
-          <th>
+    <div class="container">
+      <!-- <center style = "padding-right: 150px"> -->
+        <div class="col-md-3 col-xs-12 col-lg-3">
+                <div class= "rotate90"><IMG ; SRC="images/index/us.jpg" width="auto"; height="100" title = "Me and my girlfriend"></div>
+        </div>
+        <div class="col-md-6 col-xs-12 col-lg-6">
                 <a href="https://xkcd.com/688/" target="_blank"><IMG ; SRC ="images/self_description.png" width ="80%" title="My life in sarcastic monochrome"></a>  
-          </th>
-          <th>
-                <div><img src="images/index/us2.jpg" width= "auto" height="160" title ="More me and my girlfriend"><div>
-          </th>
-        </tr>
-        </table>
-    </center>
+        </div>  
+        <div class="col-md-3 col-xs-12 col-lg-3">   
+                <img src="images/index/us2.jpg" width= "auto" height="160" title ="More me and my girlfriend">
+        </div> 
+         
+      <!-- </center> -->
+    </div>
     <br>
       <hr>
 
