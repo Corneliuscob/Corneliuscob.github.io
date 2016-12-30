@@ -197,6 +197,15 @@
     </div>
   </div>
 </div>
+
+<div>
+<p>weather in vancouver</p>
+  <div class="boxbox">
+    <p id="weather">weather</p>
+
+
+  </div>
+</div>
 <br>
 <br>
 
@@ -211,6 +220,17 @@
       <b>Activities and Work</b> | <a href="http://www.ubcchemecar.com/">UBC Chem-E-Car</a> | <a href="http://biofoundry.sites.olt.ubc.ca/"> The Biofoundry at UBC</a> | <a href="test.html">Projects</a> |
     </p>
 
+    <!-- weather script  -->
+<script type="text/javascript">
+      var url = "http://api.openweathermap.org/data/2.5/weather?q=vancouver,ca&appid=df1db47d0f11af8da8f45cc0124ba19a&units=metric";
+      $(function() {
+      $.get( url, function( data ) {
+        console.log(data.data);
+        $("#weather").html( data.main["temp"] );
+      });
+    });
+      
+    </script> 
 
 
 <script type="text/javascript">
