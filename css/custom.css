@@ -12,16 +12,14 @@
 	overflow: hidden;
 	padding: 10px;
 }
-#volunteerclock
-{
+#volunteerclock{
 	display: inline-block;
 	overflow: hidden;x
 }
-#work
-{
+#work{
 	display: inline-block;
 	overflow: hidden;
-	padding-top: 20px;
+	/*padding-top: 20px;*/
 }
 
 
