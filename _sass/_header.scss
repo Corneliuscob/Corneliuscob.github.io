@@ -44,6 +44,14 @@
     position: relative;
     display: none;
 }
+
+.expand {
+    display: none; 
+}
+.responsive-menu{
+    display: none;
+}
+
 @media (max-width:  768px){
 .header-bar{
     border-bottom: 1px solid $light-gray;
@@ -74,49 +82,77 @@
     // }
 
 /* Style The Dropdown Button */
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+// CSSCSS
+.menu-btn{
+    margin-top: 1.0em;
+    margin-bottom: 1.0em;
 }
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
+.menu-btn div {
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    left: 100%;
+    top: 64%;
+    padding-right: 8px;
+    margin-top: -0.5em;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 200;
+    vertical-align: middle;
+    z-index: 99;
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+.menu-btn span {
     display: block;
+    width: 19px;
+    height: 3px;
+    margin: 4px 0;
+    background: rgb(0,0,0);
+    z-index: 99;
+
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+// 
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+.expand {
+    display: block !important; 
+}
+
+.menu-btn div {
+    position: absolute;
+    left: 100%;
+    top: 64%;
+    padding-right: 8px;
+    margin-top: -0.50em;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 200;
+    vertical-align: middle;
+    z-index: 99;
+}
+ 
+.menu-btn span {
     display: block;
-}
+    width: 19px;
+    height: 3px;
+    margin: 4px 0;
+    background: rgb(0,0,0);
+    z-index: 99;
+    right: 100%;
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
 }
+ 
+.responsive-menu{
+    vertical-align: middle;
+    margin-right: 5em;
 }
+ 
+.expand {
+    display: block !important; 
+     // margin-top: 3em;
+     // left: 100%;
+
+}
+// li{
+//     vertical-align: middle  ;
+// }
+
+}//end media media-query

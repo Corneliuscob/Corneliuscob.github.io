@@ -20,25 +20,32 @@
         <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a>
 
         <!-- Pages -->
-        {% for page in site.pages %}
+        <!-- {% for page in site.pages %}
           {% if page.title and page.url != "/" %}
             <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
           {% endif %}
-        {% endfor %}
+        {% endfor %} -->
 
         <!-- CV link -->
         <!-- <a class="page-link" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a> -->
     
       </div>
-       <div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
+       
+     <div class="menu-btn" id="menu-btn">
+  <div></div>
+  <span></span>
+  <span></span>
+  <span></span>
+     </div>
+ 
+     <div class="responsive-menu">
+        <ul>
+           <li>1. Object</li>
+           <li>2. Object</li>
+        </ul>
+     </div>
 </div>
-
+<!--  <h1 class="amgay">hi there </h1> -->
 
 
          
