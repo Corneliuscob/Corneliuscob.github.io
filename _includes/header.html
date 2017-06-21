@@ -27,7 +27,7 @@
         {% endfor %} -->
 
         <!-- CV link -->
-        <!-- <a class="page-link" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a> -->
+        <a class="page-link" href="{{ '/assets/pdf/ngaito.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a>
     
       </div>
        
@@ -40,8 +40,9 @@
  
      <div class="responsive-menu">
         <ul>
-           <li>1. Object</li>
-           <li>2. Object</li>
+           <li class="droplist"><a class="page-links" href="{{ site.baseurl | prepend: site.url }}/">about</a></li>
+           <li class="droplist"><a class="page-links" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a></li>
+           <li class="droplist"><a class="page-links" href="{{ '/assets/pdf/ngaito.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a></li>
         </ul>
      </div>
 </div>
