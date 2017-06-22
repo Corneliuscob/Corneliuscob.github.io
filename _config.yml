@@ -1,8 +1,8 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Ngai To Lo
-email: 
+name: Ngai_To Lo
+email: ngai_to_lo@hotmail.com
 description: > # this means to ignore newlines until "url:"
 # A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -17,18 +17,18 @@ last_updated: # leave blank if you don't want to display last updated
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: CorneliusCob.github.io
-twitter_username: # put your twitter username
-linkedin_username: # put your linkedin username
-scholar_authorid: # put your google scholar author id
-contact_note: >
+github_username: Corneliuscob
+# twitter_username: # put your twitter username
+linkedin_username: ngai-to-lo-7a6750129
+# scholar_authorid: # put your google scholar author id
+contact_note: #
   You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Tototo time
-blog_description: Toto's website!
+blog_name: Ngai_To
+blog_description: Toto's work
 
 # Pagination
 paginate: 4

@@ -51,121 +51,113 @@
 .responsive-menu{
     display: none;
 }
-
+// Media Query css
 @media (max-width:  768px){
-.header-bar{
-    border-bottom: 1px solid $light-gray;
-    font-size: 20px;
-    display: block;
-    opacity: 0.75;
-    width: 100%;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: $space-4;
-    line-height: 3em;
-    z-index: 25;
-    h1{
-        color: $theme-color;
-        font-size:75px;
-    }
-    h2{
-        font-size:25px;
-    }
-}
-//drop down menu
- /* Dropdown Button */
-     // @media (max-width: 768px) {
-    .trigger {
-       display: none;
+
+
+        .header-bar{
+            border-bottom: 1px solid $light-gray;
+            font-size: 20px;
+            display: block;
+            opacity: 0.75;
+            width: 100%;
+            text-align: center;
+            padding-top: 25px;
+            padding-bottom: $space-4;
+            line-height: 3em;
+            z-index: 25;
+            h1{
+                color: $theme-color;
+                font-size:75px;
+            }
+            h2{
+                font-size:25px;
+            }
         }
 
-    // }
+            .trigger {
+               display: none;
+                }
 
-/* Style The Dropdown Button */
-// CSSCSS
-.menu-btn{
-    margin-top: 1.0em;
-    margin-bottom: 1.0em;
-}
-.menu-btn div {
-    position: absolute;
-    left: 100%;
-    top: 64%;
-    padding-right: 8px;
-    margin-top: -0.5em;
-    line-height: 1.2;
-    font-size: 18px;
-    font-weight: 200;
-    vertical-align: middle;
-    z-index: 99;
-}
+            // }
 
-.menu-btn span {
-    display: block;
-    width: 19px;
-    height: 3px;
-    margin: 4px 0;
-    background: rgb(0,0,0);
-    z-index: 99;
+        /* Style The Dropdown Button */
+        .menu-btn{
+            margin-top: 1.0em;
+            margin-bottom: 1.0em;
+            float: right;
 
-}
+        }
+        .menu-btn div {
+            position: absolute;
+            left: 100%;
+            top: 64%;
+            padding-right: 8px;
+            margin-top: -0.5em;
+            line-height: 1.2;
+            font-size: 18px;
+            font-weight: 200;
+            vertical-align: middle;
+            z-index: 99;
+        }
 
-// 
+        .menu-btn span {
+            display: block;
+            width: 19px;
+            height: 3px;
+            margin: 4px 0;
+            background: rgb(0,0,0);
+            z-index: 99;
 
-.expand {
-    display: block !important; 
-}
+        }
 
-.menu-btn div {
-    position: absolute;
-    left: 100%;
-    top: 64%;
-    padding-right: 8px;
-    margin-top: -0.50em;
-    line-height: 1.2;
-    font-size: 18px;
-    font-weight: 200;
-    vertical-align: middle;
-    z-index: 99;
-}
- 
-.menu-btn span {
-    display: block;
-    width: 19px;
-    height: 3px;
-    margin: 4px 0;
-    background: rgb(0,0,0);
-    z-index: 99;
-    right: 100%;
+        // 
 
-}
- 
-.responsive-menu{
-    vertical-align: middle;
-    margin-right: 5em;
-}
- 
-.expand {
-    display: block !important; 
-     // margin-top: 3em;
-     // left: 100%;
+        .expand {
+            display: block !important; 
+        }
 
-}
-//hamburger menu css
-.page-links{
-    font-size: 18px !important;
-    // background-color: blue;
-    font-weight: 900 !important;
-}
-.droplist{
-    list-style-type: none;
-    :hover{
-        background: #666;
-        overflow: visible;
-    }
-}
-// li{
-//     vertical-align: middle  ;
-// }
+        .menu-btn div {
+            position: absolute;
+            // left: 100%;
+            top: 64%;
+            padding-right: 8px;
+            margin-top: -0.50em;
+            line-height: 1.2;
+            font-size: 18px;
+            font-weight: 200;
+            vertical-align: middle;
+            z-index: 99;
+        }
+         
+        .menu-btn span {
+            display: block;
+            width: 19px;
+            height: 3px;
+            margin: 4px 0;
+            background: rgb(0,0,0);
+            z-index: 99;
+            right: 100%;
+
+        }
+         
+        .responsive-menu{
+            margin-right: 5em;
+            clear: right;
+            }
+        
+        //hamburger menu css
+        .page-links{
+            font-size: 18px !important;
+            font-weight: 900 !important;
+        }
+        .droplist{
+            list-style-type: none;
+        }
+
+        .droplist:hover{
+                background: #D1CEC6 !important;
+                // background: #CBB172 !important;
+            }
 
 }//end media media-query

@@ -10,7 +10,7 @@ profile:
   address: 
 
 news: false
-social: false
+social: true
 ---
 
 
