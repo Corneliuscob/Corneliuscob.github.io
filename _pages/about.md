@@ -23,3 +23,23 @@ On the side, I enjoy __tinkering__ with electronics and microcontrollers to __au
 
 In my spare time I practice martial arts and play video games. ~cheers!
 
+
+
+
+
+
+<!-- <div>
+	<h3>Posts</h3>
+	<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <h2><a class="post-title1" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
+      <p>{{ post.description }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
+
+</div>
+ -->
