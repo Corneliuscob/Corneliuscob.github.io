@@ -26,20 +26,25 @@ In my spare time I practice martial arts and play video games. ~cheers!
 
 
 
+<div class="skills">
+		<div class="col">
+			<div class="col one ">
+				<div class="item1">
+					<p>this is item 1</p>
+				</div>
+			</div>
+			<div class="col one ">
+				<div class="item2">
+					<p>this is item 2</p>
+				</div>
+			</div>
+			<div class="col one ">
+				<div class="item3">
+					<p>this is item 3</p>
+				</div>
+			</div>
+		</div>
 
-
-<!-- <div>
-	<h3>Posts</h3>
-	<ul class="post-list">
-  {% for post in site.posts %}
-    <li>
-      <h2><a class="post-title1" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-      <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
-      <p>{{ post.description }}</p>
-    </li>
-  {% endfor %}
-</ul>
 
 
 </div>
- -->
