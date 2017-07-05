@@ -24,27 +24,43 @@ On the side, I enjoy __tinkering__ with electronics and microcontrollers to __au
 In my spare time I practice martial arts and play video games. ~cheers!
 
 
-
-
 <div class="skills">
-		<div class="col">
-			<div class="col one ">
-				<div class="item1">
-					<p>this is item 1</p>
-				</div>
-			</div>
-			<div class="col one ">
-				<div class="item2">
-					<p>this is item 2</p>
-				</div>
-			</div>
-			<div class="col one ">
-				<div class="item3">
-					<p>this is item 3</p>
-				</div>
+	<div class="col trigger">
+		<div class="col one ">
+			<div class="item1">
+				<p>this is item 1</p>
 			</div>
 		</div>
+		<div class="col one ">
+			<div class="item2">
+				<p>this is item 2</p>
+			</div>
+		</div>
+		<div class="col one ">
+			<div class="item3">
+				<p>this is item 3</p>
+			</div>
+		</div>
+	</div>
 
-
-
+	<div class="col toshow">
+		<div class="col three ">
+			<div class="item1">
+				<p>this is item 1</p>
+			</div>
+		</div>
+		<div class="col three ">
+			<div class="item2">
+				<p>this is item 2</p>
+			</div>
+		</div>
+		<div class="col three ">
+			<div class="item3">
+				<p>this is item 3</p>
+			</div>
+		</div>
+	</div>
 </div>
+
+
+

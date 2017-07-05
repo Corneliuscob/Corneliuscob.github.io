@@ -1,8 +1,23 @@
 
 @media (max-width:  768px){
 	.skills{
-	 	.trigger{
-	 		display:none;
-	 	}
+		.col{
+	 		.trigger{
+		 		display: none;
+	 		}
+	 		
+		}
 	}
 }
+
+
+.col{
+		.toshow{
+			display: none;
+			background: #ededed;
+			font-size: 50px;
+		}
+		.three{
+			font-weight: 500;
+		}
+	}
