@@ -1,23 +1,19 @@
-
+.toshow{
+	display: none;
+}
 @media (max-width:  768px){
 	.skills{
-		.col{
-	 		.trigger{
-		 		display: none;
-	 		}
+		
+	}
+	.col{	
+	 		
 	 		
 		}
+	.toshow{
+		display: inline-block;
 	}
+	// .trigger{
+	//  		display: none;
+ // 		}
 }
 
-
-.col{
-		.toshow{
-			display: none;
-			background: #ededed;
-			font-size: 50px;
-		}
-		.three{
-			font-weight: 500;
-		}
-	}

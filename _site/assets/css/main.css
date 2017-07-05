@@ -549,6 +549,6 @@ h1, h2, h3, h4, h5, h6 { font-weight: 100; }
 
 div.equation { margin: 0.5rem 0; }
 
-@media (max-width: 768px) { .skills .col .trigger { display: none; } }
-.col .toshow { display: none; background: #ededed; font-size: 50px; }
-.col .three { font-weight: 500; }
+.toshow { display: none; }
+
+@media (max-width: 768px) { .toshow { display: inline-block; } }
