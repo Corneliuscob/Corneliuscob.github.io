@@ -18,16 +18,16 @@ last_updated: # leave blank if you don't want to display last updated
 # Social integration
 # -----------------------------------------------------------------------------
 github_username: Corneliuscob
-# twitter_username: # put your twitter username
+twitter_username: ImNgaiTo
 linkedin_username: ngai-to-lo-7a6750129
 # scholar_authorid: # put your google scholar author id
 contact_note: #
-  You can even add a little note about which of these is the best way to reach you.
+  # You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Ngai_To
+blog_name: Ngai_To's blog
 blog_description: Toto's work
 
 # Pagination
