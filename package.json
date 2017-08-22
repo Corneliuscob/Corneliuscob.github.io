@@ -1,0 +1,22 @@
+{
+  "name": "corneliuscob.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Corneliuscob/Corneliuscob.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Corneliuscob/Corneliuscob.github.io/issues"
+  },
+  "homepage": "https://github.com/Corneliuscob/Corneliuscob.github.io#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

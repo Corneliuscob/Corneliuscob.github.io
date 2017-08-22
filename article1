@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <link rel="stylesheet" href="css/rotate.css" />
+    <title> Ngai To's Site </title>
+    <style type="text/css">
+      body {margin-left:45px;
+            padding:0px;
+            /*background-color: grey;*/
+             }
+      th {font-weight: 100
+          }
+    </style>
+  </head>
+  <body>
+    <header>
+       <aside><a href="http://NgaiTo.ubcchemecar.com"></a></aside>
+      <left>
+        <h1>Ngai To Lo</h1>
+        <h2 style = "color:#aaaaaa">Chemical and Biological Engineering</h2>
+      </left>
+    </header>
+    <hr>
+    <hr>
+    <br>
+    <center style = "padding-right: 150px">
+    	<table>
+    		<tr>
+          <th>
+              <div class= "rotate90"><IMG ; SRC="images/index/us.jpg" width="auto"; height="100" title = "Me and my girlfriend"></div>
+          </th>
+          <th>
+                <a href="https://xkcd.com/688/" target="_blank"><IMG ; SRC ="images/self_description.png" width ="80%" title="My life in sarcastic monochrome"></a>  
+          </th>
+          <th>
+                <div><img src="images/index/us2.jpg" width= "auto" height="160" title ="More me and my girlfriend"><div>
+          </th>
+        </tr>
+        </table>
+    </center>
+    <br>
+
+      <hr>
+
+
+       <p><h2 style="text-align:center;">Projects:</h2></p>
+       <p><h2 style="text-align:center;">LED Cube</h2></p>
+       <p><h2 style="text-align:center;">Power Supply</h2></p>
+       <p><h2 style="text-align:center;">Solder fan system</h2></p>
+       <p><h2 style="text-align:center;">Blue Tooth LEDS</h2></p>
+<hr>
+      <h2 style="text-align:center;" >Articles</h2>
+      <p>The Design Process: Perf board creation</p>
+
+    <hr>
+    <p  style="text-align: left;">              
+      <b>Email:</b> 
+      "logistics "at" ubcchemecar.com"
+    </p>
+      
+        
+
+
+
+
+    <p  style="text-align: left;">
+      <b>Activities and Work</b> | <a href="http://www.ubcchemecar.com/">UBC Chem-E-Car</a> | <a href="http://biofoundry.sites.olt.ubc.ca/"> The Biofoundry at UBC</a> | The Shung Ying Kung Fu Club |
+    </p>
+
+  </body>
+</html>
