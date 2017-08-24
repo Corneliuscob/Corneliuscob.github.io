@@ -9,10 +9,19 @@ description: My Home Hobbies
 	You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
 
 </div>
-<div class="col one">
+<div class="col one img_row" style="overflow: visible">
 <div class="img-hold" >
 	<img  class="" style="max-width: 289px;" id = "pop1" src="{{ site.baseurl }}/assets/img/all_elec2.jpg" alt="" title="example image"/>
-<div class="pop popnomore"><a href="#">close</a></div>
+<div class="pop popnomore " ><a style="color: black; overflow: visible;" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Close</a></div>
 </div>
 </div>
 
@@ -35,13 +44,6 @@ description: My Home Hobbies
 </div>
 
 You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-
-
-
-
-    
 
 
 
