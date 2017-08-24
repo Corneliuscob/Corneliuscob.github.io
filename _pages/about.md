@@ -23,8 +23,3 @@ On the side, I enjoy __tinkering__ with electronics and microcontrollers to __au
 
 In my spare time I practice martial arts and play video games. ~cheers!
 
-
-
-
-
-
