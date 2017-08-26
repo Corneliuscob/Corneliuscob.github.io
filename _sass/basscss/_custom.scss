@@ -50,3 +50,33 @@
     // overflow: hidden;
     box-sizing:border-box;
 }
+// .testCase{
+// 	background: blue;
+// }
+@media  (max-width: 768px) {
+    /* For mobile phones: */
+    // [class*="col-"] {
+    //     width: 100%;
+    // }
+	
+    .one {
+    width: 100%!important;
+	}
+	.two {
+		width:100%!important;
+	}
+  //   .testCase{
+		// background: grey;
+  //   }
+  .img-hold {
+	position: relative!important;
+	max-width: 100%!important;
+	clear: both;
+	}
+	.img_row {
+    max-height:375px ;
+    width: 100%;
+    overflow: visible!important;
+    box-sizing:border-box;
+	}
+}

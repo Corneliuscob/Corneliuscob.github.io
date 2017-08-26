@@ -11,31 +11,41 @@ description: My Home Hobbies
 </div>
 <div class="col one img_row" style="overflow: visible">
 <div class="img-hold" >
-	<img  class="" style="max-width: 289px;" id = "pop1" src="{{ site.baseurl }}/assets/img/all_elec2.jpg" alt="" title="example image"/>
+	<img  class="col three" style="max-width: 289px;" id = "pop1" src="{{ site.baseurl }}/assets/img/all_elec2.jpg" alt="" title="example image"/>
 <div class="pop popnomore " ><a style="color: black; overflow: visible;" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Close</a></div>
+consequat. Close</a></div>
 </div>
 </div>
 
+<!-- <div class=""> -->
 <div class="img_row">
-  
-    <img class="col one" src="{{ site.baseurl }}/assets/img/test1.jpg" alt="" title="example image"/> 
+    <div class="img-hold col one"  >
+    <img class="col three" src="{{ site.baseurl }}/assets/img/test1.jpg" alt="" title="example image"/> 
+    <div class="pop popnomore " ><a style="color: black; overflow: visible;" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Close</a></div>
+    </div>
     
+    <div class="img-hold col one"  >
+    <img class="col three" src="{{ site.baseurl }}/assets/img/test2.jpg" alt="" title="example image"/> 
+    <div class="pop popnomore " ><a style="color: black; overflow: visible;" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Close</a></div>
+    </div>
     
-    <img class="col one" src="{{ site.baseurl }}/assets/img/test2.jpg" alt="" title="example image"/>
-    <img class="col one" src="{{ site.baseurl }}/assets/img/diagram.jpg" alt="" title="example image"/>
+    <div class="img-hold col one"  >
+    <img class="col three" src="{{ site.baseurl }}/assets/img/diagram.jpg" alt="" title="example image"/> 
+    <div class="pop popnomore " ><a style="color: black; overflow: visible;" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Close</a></div>
+    </div>
 
 <div class="col three caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
+</div>
+
 <div class="img_row">
     <img class="col three" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
 </div>
@@ -43,10 +53,23 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Close<
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-
+<div class="col one">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+<!-- <div class="col two testCase">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+</div> -->
 
 <br/><br/><br/>
 
