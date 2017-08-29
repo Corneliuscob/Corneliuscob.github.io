@@ -1,0 +1,27 @@
+/* your styles go here */
+.boxbox {
+	width: 300px;
+    /*border: 1px solid gray;*/
+    padding: 25px;
+    margin: 25px;
+    background-color:lightgray;
+}
+#picline {
+	background-color:  #fff2cc;
+	display: inline-block;
+	overflow: hidden;
+	padding: 13px;
+}
+#volunteerclock{
+	display: inline-block;
+	overflow: hidden;x
+}
+#work{
+	display: inline-block;
+	overflow: hidden;
+	/*padding-top: 20px;*/
+}
+
+
+
+
