@@ -29,9 +29,6 @@ To give your project a background in the portfolio page, just add the img tag to
 {% for project in site.album %}
 
 
-
-
-
 <div class="project ">
     <div class="thumbnail">
         <a href="#">
@@ -51,6 +48,8 @@ To give your project a background in the portfolio page, just add the img tag to
 
 
 {% endfor %}
+
+
 
 
 <script type="text/javascript">
