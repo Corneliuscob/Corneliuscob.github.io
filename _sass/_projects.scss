@@ -1,29 +1,27 @@
 .project {
     box-sizing: border-box;
     float: left;
-    height: 400px;
+    height: 250px;
     padding: 10px;
     vertical-align: middle;
     width: 33.33%;
-    margin-bottom: 25px;
-    overflow: hidden;
 
     .thumbnail {
         overflow: hidden;
-        height: 450px;
+        height: 200px;
         width: 100%;
 
         img {
             height: auto;
             position: relative;
-                // left: -25%;
-                // top: -5%;
+                left: -25%;
+                top: -5%;
             width: 500px;
         }
 
         a {
             float: left;
-            height: 450spx;
+            height: 230px;
             position: relative;
             width: 100%;
 

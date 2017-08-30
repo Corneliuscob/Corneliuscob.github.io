@@ -1,7 +1,0 @@
----
-layout: page
-title: projects
-permalink: /projects/
-description: Photo of me and my girlfriend.
-img: /assets/img/album/test4.jpg
----
