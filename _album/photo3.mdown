@@ -1,7 +1,7 @@
 ---
 layout: page
-title: projects
+title: Ecar
 permalink: /projects/
-description: Photo of me and my girlfriend.
+description: We locked ourselves out of our lab waiting on security.
 img: /assets/img/album/test3.jpg
 ---
