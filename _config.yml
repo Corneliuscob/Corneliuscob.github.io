@@ -82,7 +82,7 @@ gems:
     - jekyll-paginate
     - jekyll/scholar
     - jemoji
-
+    - github-pages
 # Jekyll-Scholar
 scholar:
 
