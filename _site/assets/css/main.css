@@ -317,7 +317,8 @@ hr { border: 0; border-bottom-style: solid; border-bottom-width: 1px; border-bot
   .one { width: 100% !important; }
   .two { width: 100% !important; }
   .img-hold { position: relative !important; max-width: 100% !important; clear: both; }
-  .img_row { max-height: 375px; width: 100%; overflow: visible !important; box-sizing: border-box; } }
+  .img_row { max-height: 375px; width: 100%; overflow: visible !important; box-sizing: border-box; }
+  .project { width: 100%; } }
 html, body { height: auto; min-height: 100%; }
 
 img { max-width: none; }
