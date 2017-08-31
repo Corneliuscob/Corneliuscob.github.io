@@ -12,7 +12,7 @@ footer_text: >
 
 url: /  # the base hostname & protocol for your site
 baseurl: /al-folio # the subpath of your site, e.g. /blog/
-root: / #octo-5
+# root: /   #octo-5
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
