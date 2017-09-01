@@ -1,6 +1,6 @@
 <!-- Load jQuery -->
-<script src="//code.jquery.com/jquery-{{ site.jquery_version }}.min.js"></script>
 <script src="{{ '/assets/js/jquery-3.2.1.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="//code.jquery.com/jquery-{{ site.jquery_version }}.min.js"></script>
 <!-- Load Common JS -->
 <script src="{{ '/assets/js/common.js' | prepend: site.baseurl | prepend: site.url }}"></script>
 
@@ -37,4 +37,25 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'UA-XXXXXXXX-X', 'auto');
 ga('send', 'pageview');
+</script>
+
+<script type="text/javascript">
+	
+    	$( '.menu-btn' ).click(function(){
+    		$('.responsive-menu').addClass('.expand');
+    		$('.menu-btn').addClass('.btn-none');
+    	})
+    	
+    	 $( '.close-btn' ).click(function(){
+    		$('.responsive-menu').removeClass('.expand');
+    		$('.menu-btn').removeClass('.btn-none');
+    	})
+  	
+ </script>
+ <script type="text/javascript">
+	
+    	     $( '.menu-btn' ).click(function(){
+    	     $('.responsive-menu').toggleClass('expand');
+    	     })
+        
 </script>

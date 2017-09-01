@@ -14,6 +14,9 @@ social: true
 ---
 
 
+
+<script src="{{ '/assets/js/jquery-3.2.1.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
+
 I am a Chemical and Biological Engineer with focus on __design__ and __instrumentation__. Furthermore, I am developing strong foundations in __frontend__ and __backend__ programming
 
 

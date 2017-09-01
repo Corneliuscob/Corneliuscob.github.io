@@ -132,8 +132,8 @@
 
 
     <!-- Load jQuery -->
-<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="http://localhost:4000/al-folio/assets/js/jquery-3.2.1.min.js"></script>
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
 <!-- Load Common JS -->
 <script src="http://localhost:4000/al-folio/assets/js/common.js"></script>
 
@@ -165,6 +165,26 @@ ga('create', 'UA-XXXXXXXX-X', 'auto');
 ga('send', 'pageview');
 </script>
 
+<script type="text/javascript">
+	
+    	$( '.menu-btn' ).click(function(){
+    		$('.responsive-menu').addClass('.expand');
+    		$('.menu-btn').addClass('.btn-none');
+    	})
+    	
+    	 $( '.close-btn' ).click(function(){
+    		$('.responsive-menu').removeClass('.expand');
+    		$('.menu-btn').removeClass('.btn-none');
+    	})
+  	
+ </script>
+ <script type="text/javascript">
+	
+    	     $( '.menu-btn' ).click(function(){
+    	     $('.responsive-menu').toggleClass('expand');
+    	     })
+        
+</script>
 
   </body>
 
