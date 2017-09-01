@@ -87,7 +87,15 @@
 	.project{
 		width: 100%;
 	}
-
+	footer{
+		// display: none;
+		background-color: transparent!important;
+		color: black!important;
+		a { color: #DE6602!important; }
+  		a:hover { color: $theme-color!important; }
+  		border-top: none!important;
+  		position: static!important;
+	}
 	//Hamburger dropdown
 	.menu-btn div {
 	position: absolute;
