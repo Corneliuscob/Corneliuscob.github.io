@@ -318,8 +318,10 @@ hr { border: 0; border-bottom-style: solid; border-bottom-width: 1px; border-bot
   .two { width: 100% !important; }
   .img-hold { position: relative !important; max-width: 100% !important; clear: both; }
   .img_row { max-height: 375px; width: 100%; overflow: visible !important; box-sizing: border-box; }
-  .project { width: 100% !important; }
-  .project .thumbnail { overflow: hidden; height: 450px; width: 300px !important; }
+  .project { width: 300px !important; margin-left: -1em !important; }
+  .project .thumbnail { overflow: auto; height: 400px !important; width: inherit !important; }
+  .project a { height: 400px !important; }
+  .project a span { display: none; position: absolute; overflow: inherit !important; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.4); color: #e8e8e8; padding: 40px; text-align: center; }
   footer { background-color: transparent !important; color: black !important; border-top: none !important; position: static !important; }
   footer a { color: #DE6602 !important; }
   footer a:hover { color: #B509AC !important; }
@@ -410,7 +412,7 @@ footer a:hover { color: #B509AC; }
 .project { box-sizing: border-box; float: left; height: 400px; padding: 10px; vertical-align: middle; width: 33.33%; margin-bottom: 25px; overflow: hidden; }
 .project .thumbnail { overflow: hidden; height: 450px; width: 100%; }
 .project .thumbnail img { height: auto; position: relative; width: 500px; }
-.project .thumbnail a { float: left; height: 450spx; position: relative; width: 100%; }
+.project .thumbnail a { float: left; height: 450px; position: relative; width: 100%; }
 .project .thumbnail a span { display: none; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.4); color: #e8e8e8; padding: 40px; text-align: center; }
 .project .thumbnail a span h1 { font-size: 1.5rem; margin: 0; }
 .project .thumbnail a span p { color: #e8e8e8; }

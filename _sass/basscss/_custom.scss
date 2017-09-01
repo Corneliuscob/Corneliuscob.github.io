@@ -85,15 +85,33 @@
     box-sizing:border-box;
 	}
 	.project{
-		width: 100%!important;
-		
+		width: 300px!important;
+		margin-left: -1.0em!important;
 		.thumbnail {
-        overflow: hidden;
-        height: 450px;
-        width: 300px!important;
+        overflow: auto;
+        height: 400px!important;
+        width: inherit!important;
 
     	}
 
+    	a {
+    		 height: 400px!important;
+            span {
+                display: none;
+                position: absolute;
+                overflow: inherit!important ;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                background: rgba(0,0,0,0.4);
+                color: $grey-color-light;
+                padding: 40px;
+                text-align: center;
+
+               
+            }
+        }
 	}
 	footer{
 		// display: none;
