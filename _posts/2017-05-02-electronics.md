@@ -34,12 +34,12 @@ The thing with electronics is that there is so much to learn. From simple facts 
     consequat. </a></div>
     </div>
 
-<div class="col three caption">
+<!-- <div class="col three caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+</div> -->
 </div>
 
-<div class="img_row">
+<!-- <div class="img_row">
     <img class="col three"  src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
 </div>
 <div class="col three caption">
@@ -53,7 +53,7 @@ The thing with electronics is that there is so much to learn. From simple facts 
     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</div>
+</div> -->
 <!-- <div class="col two testCase">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
