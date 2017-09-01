@@ -318,7 +318,9 @@ hr { border: 0; border-bottom-style: solid; border-bottom-width: 1px; border-bot
   .two { width: 100% !important; }
   .img-hold { position: relative !important; max-width: 100% !important; clear: both; }
   .img_row { max-height: 375px; width: 100%; overflow: visible !important; box-sizing: border-box; }
-  .project { width: 100%; }
+  .project { width: 100% !important; }
+  .project .thumbnail { overflow: hidden; height: 450px; width: 300px !important; }
+  .project .thumbnail img { height: auto; position: relative; }
   footer { background-color: transparent !important; color: black !important; border-top: none !important; position: static !important; }
   footer a { color: #DE6602 !important; }
   footer a:hover { color: #B509AC !important; }

@@ -85,7 +85,22 @@
     box-sizing:border-box;
 	}
 	.project{
-		width: 100%;
+		width: 100%!important;
+		
+		.thumbnail {
+        overflow: hidden;
+        height: 450px;
+        width: 300px!important;
+
+        img {
+            height: auto;
+            position: relative;
+                // left: -25%;
+                // top: -5%;
+            // width: 500px;
+        	}	
+    	}
+
 	}
 	footer{
 		// display: none;
