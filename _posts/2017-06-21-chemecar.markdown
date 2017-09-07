@@ -23,7 +23,7 @@ To read more about the team visit the website [ubcchemecar](https://ubcchemecar.
 
 <div class="img-hold col one"  >
 </div>
-
+<img class="col three"  src="{{ site.baseurl }}/assets/img/album/eteam.jpg" alt="" title="Ecar physicl"/> 
 </div>
  <hr>
 
