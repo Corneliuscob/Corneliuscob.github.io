@@ -12,7 +12,7 @@ The Chem-E-Car is a student team from UBC aimed to allow students with a passion
 Our team has come first and second in various regional competitions which has allowed us to go to the national competition. This is a great opportunity to travel. We have been to Washington, Oregon, California and will be attending a competition in Barceona, Spain.
 
 To read more about the team visit the website [ubcchemecar](https://ubcchemecar.com)
-
+<div class="picline">
 <div class="img-hold col one"  >
     <img class="col three"  src="{{ site.baseurl }}/assets/img/album/Ecar1.jpg" alt="" title="example image"/> 
  </div>
@@ -20,7 +20,10 @@ To read more about the team visit the website [ubcchemecar](https://ubcchemecar.
 <div class="img-hold col one"  >
     <img class="col three"  src="{{ site.baseurl }}/assets/img/album/ecar2.jpg" alt="" title="example image"/> 
  </div>
+
+ </div>
  <hr>
+
 ## Expansion and Divergence
 For the past 3 years. The Chem-E-Car team was a small team of 7-15 members. Today, we are a team of 40 strong, with an annual funding of 50,000 dollars, a myriad of projects. These projects are varied but share the same common goal: To solve challenges from the engineering perspective. 
 
