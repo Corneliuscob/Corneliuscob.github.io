@@ -1,7 +1,8 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Ngai_To Lo
+name: Ngai To
+name_last:Lo
 email: ngai_to_lo@hotmail.com
 description: Ngai To Lo's personal site where you get a glimpse of who he is!
 footer_text: >
@@ -26,8 +27,8 @@ contact_note: #
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Ngai_To
-blog_description: Toto's work
+blog_name: Ngai To
+blog_description: Ngai To (Toto)'s work
 
 # Pagination
 paginate: 4
