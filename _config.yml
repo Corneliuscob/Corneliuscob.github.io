@@ -4,7 +4,7 @@
 name: Ngai_To Lo
 email: ngai_to_lo@hotmail.com
 description: > # this means to ignore newlines until "url:"
-# A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+Ngai To Lo's personal site where you get a glimpse of who he is!
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
