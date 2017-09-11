@@ -4,4 +4,5 @@ title: Me and my girlfriend
 permalink: /projects/
 description: Just enjoying the sun.
 img: /assets/img/album/test1.jpg
+alt: Ngai To and Inez 
 ---

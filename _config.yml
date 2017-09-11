@@ -8,7 +8,6 @@ description: Ngai To Lo's personal site where you get a glimpse of who he is!
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 # url: /Corneliuscob.github.io  # the base hostname & protocol for your site
 baseurl: / #al-folio # the subpath of your site, e.g. /blog/
@@ -22,7 +21,7 @@ github_username: Corneliuscob.github.io
 # twitter_username: # put your twitter username
 linkedin_username: ngai-to-lo-7a6750129
 # scholar_authorid: # put your google scholar author id
-contact_note: #
+contact_note: #9
 
 # -----------------------------------------------------------------------------
 # Blog

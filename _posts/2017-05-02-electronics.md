@@ -12,7 +12,7 @@ The thing with electronics is that there is so much to learn. From simple facts 
 </div>
 <div class="col one img_row" style="overflow: visible">
 <div class="img-hold" >
-	<img  class="col three" style="max-width: 289px;" id = "pop1" src="{{ site.baseurl }}/assets/img/all_elec2.jpg" alt="" title="example image"/>
+	<img  class="col three" style="max-width: 289px;" id = "pop1" src="{{ site.baseurl }}/assets/img/all_elec2.jpg" alt="Electronic projects: power supply, infrared sensor, other things" title="electronics overview"/>
 <div class="pop popnomore " id="popId1"><a style="color: black; overflow: visible;" href="#">This is an overview of a few projects that I have read into and designed. On top of electricity theory, I have garnered iformation baout many different components and IC's as well as skills such as layout design, soldering and CAD.</a></div>
 </div>
 </div>
@@ -20,7 +20,7 @@ The thing with electronics is that there is so much to learn. From simple facts 
 <!-- <div class=""> -->
 <div class="img_row">
     <div class="img-hold col one"   >
-    <img class="col three" id="pop2" src="{{ site.baseurl }}/assets/img/test1.jpg" alt="" title="example image"/> 
+    <img class="col three" id="pop2" src="{{ site.baseurl }}/assets/img/test1.jpg" alt="#x3 Led Cube" title="3x3 Led Cube"/> 
     <div class="pop popnomore " id="popId2" ><a style="color: black; overflow: visible;" href="#">This is my very first project where I learned to solder and work with Arduino coding. Cable management and spacing were not the first thing on mind but hte project turned out extremely well!  Close</a></div>
     </div>
         <div class="img-hold col one"  >
@@ -34,35 +34,10 @@ The thing with electronics is that there is so much to learn. From simple facts 
     consequat. </a></div>
     </div>
 
-<!-- <div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div> -->
+
 </div>
 
-<!-- <div class="img_row">
-    <img class="col three"  src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-<div class="col one">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</div> -->
-<!-- <div class="col two testCase">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    
-</div> -->
 
 <br/><br/><br/>
 

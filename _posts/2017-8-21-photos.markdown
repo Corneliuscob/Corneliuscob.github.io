@@ -21,7 +21,7 @@ Here's a few photos of me myself and I... And other people of course!
     <div class="thumbnail">
         <a href="#" id="target"> 
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}" style = " max-width: 300px"/>
+        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}" style = " max-width: 300px" alt="{{project.alt}}" />
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
