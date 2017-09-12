@@ -313,11 +313,13 @@ hr { border: 0; border-bottom-style: solid; border-bottom-width: 1px; border-bot
 
 .img_row1 { max-height: 375px; width: 100%; box-sizing: border-box; }
 
+.img_row { display: inline-block; max-height: 559px; overflow: hidden !important; }
+
 @media (max-width: 768px) { /* For mobile phones: */
   .one { width: 100% !important; }
   .two { width: 100% !important; }
   .img-hold { position: relative !important; max-width: 100% !important; clear: both; }
-  .img_row { max-height: 375px; width: 100%; overflow: visible !important; box-sizing: border-box; }
+  .img_row { height: 1000px; width: 100%; box-sizing: inline-block; float: left; }
   .project { width: 300px !important; margin-left: -1em !important; }
   .project .thumbnail { overflow: auto; height: 400px !important; width: inherit !important; }
   .project a { height: 400px !important; }

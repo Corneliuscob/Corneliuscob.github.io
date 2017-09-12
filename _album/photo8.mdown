@@ -1,0 +1,8 @@
+---
+layout: page
+title: Castle on Tremblant
+permalink: /projects/
+description: Pretty castle on Tremblant QC
+img: /assets/img/album/castle.jpg
+alt: Castle on Mont Tremblant
+---

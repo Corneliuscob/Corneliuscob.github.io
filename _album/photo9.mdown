@@ -1,0 +1,8 @@
+---
+layout: page
+title: Autocad Practice
+permalink: /projects/
+description: pretty shapes
+img: /assets/img/album/autocad.jpg
+alt: Autocad and electronics
+---

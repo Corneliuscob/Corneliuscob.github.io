@@ -1,0 +1,8 @@
+---
+layout: page
+title: Me and my girlfriend again!
+permalink: /projects/
+description: At Mont Tremblant QC!.
+img: /assets/img/album/ngaito_and_nes.jpg
+alt: Ngai To and Inez
+---

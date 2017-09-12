@@ -53,7 +53,11 @@
 // .testCase{
 // 	background: blue;
 // }
-
+.img_row{
+	display: inline-block;
+	max-height: 559px;
+	overflow: hidden!important;
+}
 
 
 // ------------------------- Media Query here -----------------------------
@@ -79,10 +83,11 @@
 	clear: both;
 	}
 	.img_row {
-    max-height:375px ;
+    height:1000px ;
     width: 100%;
-    overflow: visible!important;
-    box-sizing:border-box;
+    // overflow: visible!important;
+    box-sizing:inline-block;
+    float: left;
 	}
 	.project{
 		width: 300px!important;

@@ -24,7 +24,7 @@ The thing with electronics is that there is so much to learn. From simple facts 
     <div class="pop popnomore " id="popId2" ><a style="color: black; overflow: visible;" href="#">This is my very first project where I learned to solder and work with Arduino coding. Cable management and spacing were not the first thing on mind but hte project turned out extremely well!  Close</a></div>
     </div>
         <div class="img-hold col one"  >
-    <img class="col three" id="pop3" src="{{ site.baseurl }}/assets/img/test2.jpg" alt="" title="example image"/> 
+    <img class="col three" id="pop3" src="{{ site.baseurl }}/assets/img/test2.jpg" alt="" title="8x8 2d Matrix "/> 
     <div class="pop popnomore "  id="popId3"><a style="color: black; overflow: visible;" href="#">Shift registers are used to reduce the number of I/O to the microcontroller... Too bad the amount of wires is still ridiculous. At least you can see the LED matrix!</a></div>
     </div>
     <div class="img-hold col one"  >
@@ -33,7 +33,7 @@ The thing with electronics is that there is so much to learn. From simple facts 
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     consequat. </a></div>
     </div>
-
+   
 
 </div>
 

@@ -12,24 +12,28 @@ The Chem-E-Car is a student team from UBC aimed to allow students with a passion
 Our team has come first and second in various regional competitions which has allowed us to go to the national competition. This is a great opportunity to travel. We have been to Washington, Oregon, California and will be attending a competition in Barceona, Spain.
 
 To read more about the team visit the website [ubcchemecar](https://ubcchemecar.com)
-<div class="img_row" style="display: inline-block; max-height: 559px; overflow: hidden!important;">
-<div class="img-hold col one"  >
-    <img class="col three"  src="{{ site.baseurl }}/assets/img/album/Ecar1.jpg" alt="" title="Ecar render"/> 
- </div>
-
-<div class="img-hold col one"  >
-    <img class="col three"  src="{{ site.baseurl }}/assets/img/album/ecar2.jpg" alt="" title="Ecar physicl"/> 
- </div>
-
-<div class="img-hold col one"  >
+<div class="img_row" style="">
+	<div class="img-hold col one"  >
+	    <img class="col three"  src="{{ site.baseurl }}/assets/img/album/Ecar1.jpg" alt="" title="Ecar render"/> 
+	 </div>
+	<div class="img-hold col one"  >
+	    <img class="col three"  src="{{ site.baseurl }}/assets/img/album/ecar2.jpg" alt="" title="Ecar physical"/> 
+	 </div>
+	<div class="img-hold col one"  >
+		<img class="col three"  src="{{ site.baseurl }}/assets/img/album/eteam.jpg" alt="" title="Ecar team"/> 
+	</div>
 </div>
-<img class="col three"  src="{{ site.baseurl }}/assets/img/album/eteam.jpg" alt="" title="Ecar physicl"/> 
-</div>
- <hr>
-
-## Expansion and Divergence
+ <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+<div style="">
+<h2>Expansion and Divergence</h2>
 For the past 3 years. The Chem-E-Car team was a small team of 7-15 members. Today, we are a team of 40 strong, with an annual funding of 50,000 dollars, a myriad of projects. These projects are varied but share the same common goal: To solve challenges from the engineering perspective. 
 
 Chem-E-Car no longer encompasses the whole of our team. As a result, we are rebranding the team to be called Envision. 
+</div>
 
 
