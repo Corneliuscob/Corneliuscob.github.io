@@ -23,12 +23,7 @@ To read more about the team visit the website [ubcchemecar](https://ubcchemecar.
 		<img class="col three"  src="{{ site.baseurl }}/assets/img/album/eteam.jpg" alt="" title="Ecar team"/> 
 	</div>
 </div>
- <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+ 
 <div style="">
 <h2>Expansion and Divergence</h2>
 For the past 3 years. The Chem-E-Car team was a small team of 7-15 members. Today, we are a team of 40 strong, with an annual funding of 50,000 dollars, a myriad of projects. These projects are varied but share the same common goal: To solve challenges from the engineering perspective. 

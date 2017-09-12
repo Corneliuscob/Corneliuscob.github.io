@@ -54,8 +54,8 @@
 // 	background: blue;
 // }
 .img_row{
-	display: inline-block;
-	max-height: 559px;
+	display: block;
+	max-height:auto;
 	overflow: hidden!important;
 }
 
@@ -80,14 +80,13 @@
   .img-hold {
 	position: relative!important;
 	max-width: 100%!important;
-	clear: both;
 	}
 	.img_row {
-    height:1000px ;
+    max-height: auto ;
     width: 100%;
-    // overflow: visible!important;
+    overflow: visible!important;
     box-sizing:inline-block;
-    float: left;
+    
 	}
 	.project{
 		width: 300px!important;

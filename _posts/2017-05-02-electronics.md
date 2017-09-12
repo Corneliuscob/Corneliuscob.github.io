@@ -37,8 +37,6 @@ The thing with electronics is that there is so much to learn. From simple facts 
 
 </div>
 
-
-
 <br/><br/><br/>
 
 <script type="text/javascript">
