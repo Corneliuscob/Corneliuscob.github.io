@@ -1,7 +1,8 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Ngai_To Lo
+name: Ngai To
+name_last: Lo
 email: ngai_to_lo@hotmail.com
 description: > # this means to ignore newlines until "url:"
 # A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.

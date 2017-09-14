@@ -6,7 +6,7 @@
     {% if page.layout != "about" %}
     <span class="site-title">
         
-         <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/" > <strong>{{ site.name }} {{ site.name_last }} </strong></a>
+         <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/" > <strong>{{ site.name }} </strong>{{ site.name_last }}</a>
     </span>
     {% endif %}
 
@@ -27,7 +27,7 @@
         {% endfor %} -->
 
         <!-- CV link -->
-        <a class="page-link" href="{{ '/assets/pdf/ngaito.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a>
+        <a class="page-link" href="{{ '/assets/pdf/ngaito.pdf' | prepend: site.baseurl | prepend: site.url }}">Resume</a>
     
       </div>
        
@@ -42,7 +42,7 @@
         <ul>
            <li class="droplist"><a class="page-links" href="{{ site.baseurl | prepend: site.url }}/">about</a></li>
            <li class="droplist"><a class="page-links" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a></li>
-           <li class="droplist"><a class="page-links" href="{{ '/assets/pdf/ngaito.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a></li>
+           <li class="droplist"><a class="page-links" href="{{ '/assets/pdf/ngaito.pdf' | prepend: site.baseurl | prepend: site.url }}">Resume</a></li>
         </ul>
      </div>
 </div>
