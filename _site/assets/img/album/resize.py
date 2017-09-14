@@ -26,7 +26,7 @@ for filename in os.listdir('.'):
     print ( 'REsizing %s...' %(filename))
     # im = im.crop((200,100,1024,1236))
     # crop is left, top , right, bot
-    im2 = im.crop((0,0,1080,1440))
+    im2 = im.crop((0,200,1080,1280))
 
 
     im2.save(os.path.join('sized', filename))
