@@ -12,7 +12,7 @@ img: /assets/img/photos/bg.jpg
     }
 </style>
 
-Here's a few photos of me myself and I... And other people of course!
+Here's a few photos of me... And other people of course!
 
 {% for project in site.album %}
 
