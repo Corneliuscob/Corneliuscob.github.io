@@ -313,6 +313,8 @@ hr { border: 0; border-bottom-style: solid; border-bottom-width: 1px; border-bot
 
 .img_row1 { max-height: 375px; width: 100%; box-sizing: border-box; }
 
+.img_res { max-height: 375px; width: auto; box-sizing: border-box; margin-top: 1em; margin-bottom: 2em; }
+
 .img_row { display: block; max-height: auto; overflow: hidden !important; }
 
 @media (max-width: 768px) { /* For mobile phones: */
@@ -339,7 +341,7 @@ em img { max-width: 100%; margin-left: 0; }
 
 body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
 
-.wrapper { max-width: -webkit-calc(1000px - (50px * 2)); max-width: calc(1000px - (50px * 2)); margin-right: auto; margin-left: auto; padding-right: 50px; padding-left: 50px; }
+.wrapper { max-width: -webkit-calc(1000px - (50px * 2)); max-width: calc(1000px - (50px * 2)); margin-right: auto; margin-left: auto; padding-right: 50px; padding-left: 50px; overflow-x: hidden; }
 
 .clearfix:before, .wrapper:before, .clearfix:after, .wrapper:after { content: ' '; display: table; }
 

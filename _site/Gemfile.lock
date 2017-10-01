@@ -212,6 +212,7 @@ GEM
     unicode (0.4.4.4)
     unicode (0.4.4.4-x86-mingw32)
     unicode-display_width (1.2.1)
+    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -222,6 +223,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-scholar
   jemoji
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
-   1.15.1
+   1.15.4
