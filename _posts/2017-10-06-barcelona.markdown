@@ -2,7 +2,7 @@
 layout: default
 title: Barcelona
 description: Where wine flows more freely than water
-date: 2019-10-06
+date: 2017-10-06
 ---
 
 During the roman empire, a small town was formed named Barcoloni. This town flourished as a trade route and grew larger and larger. Now, Barcelona boasts one of the most population dense cities in the world with ancient structures interwoven in with the new. You will find new stores built between 2 stone walls or a posh coffee shop in the side of an ancient rampart. It is truly a sight to see. 

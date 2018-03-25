@@ -2,7 +2,7 @@
 layout: default
 title: World Congress of Chemical Engineers 2017
 description: Chem-E-Car's Last Run
-date: 2019-10-06
+date: 2017-10-06
 ---
 
 It is hard to believe that under a year ago in San Francisco, that a professor apporached our group and told us to go to Spain for Chem-E-Car. It is even harder to believe that we fundraised for the money, signed up, and took our car to the world stage to showcase our car and compete against Universities from around the world. The competition was fierce. The competition distance was to be 21 meters. Our car went just a meter over and we placed 9th out of 22 with the winning car coming in at 0.6 centimeters from the finish line. Congratulations Persian Gulf University! While we didn't come first in the competition, we made up for it in other regards. 
