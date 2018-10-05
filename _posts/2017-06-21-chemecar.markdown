@@ -7,7 +7,7 @@ description: Student team
 
 
 
-The Chem-E-Car is a student team from UBC aimed to allow students with a passion to innovate and apply their skills and contribute to various projects. The main project is the Chem-E-Car competition in which students create a shoebox-sized car that is driven by a Chemical system, and is timed by chemical means. During the competition, the car is given a distance it is required to travel and the car that can meet the specified distance wins. Cars are not allowed to measure the physical distance so the need to rely on their chemical timer. 
+Chem-E-Car is a student team from UBC aimed to allow students with a passion to innovate and apply their skills and contribute to various projects. The main project is the Chem-E-Car competition in which students create a shoebox-sized car that is driven by a Chemical system, and is timed by chemical means. During the competition, the car is given a distance it is required to travel and the car that can meet the specified distance wins. Cars are not allowed to measure the physical distance so the need to rely on their chemical timer. 
 
 Our team has come first and second in various regional competitions which has allowed us to go to the national competition. This is a great opportunity to travel. We have been to Washington, Oregon, California and will be attending a competition in Barceona, Spain.
 
@@ -17,7 +17,7 @@ To read more about the team visit the website [ubcchemecar](https://ubcchemecar.
 	    <img class="col three"  src="{{ site.baseurl }}/assets/img/album/Ecar1.jpg" alt="" title="Ecar render"/> 
 	 </div>
 	<div class="img-hold col one"  >
-	    <img class="col three"  src="{{ site.baseurl }}/assets/img/album/ecar2.jpg" alt="" title="Ecar physical"/> 
+	    <img class="col three"  src="{{ site.baseurl }}/assets/img/album/ecar2.jpg" alt="" title="je physical"/> 
 	 </div>
 	<div class="img-hold col one"  >
 		<img class="col three"  src="{{ site.baseurl }}/assets/img/album/eteam.jpg" alt="" title="Ecar team"/> 
