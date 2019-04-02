@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 
+
 html,
 body {
   width: 100%;
@@ -239,7 +240,7 @@ section.download .badges .badge-link img {
 }
 
 section.features .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 section.features .section-heading h2 {
@@ -434,7 +435,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   border-radius: 300px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
-  text-transform: uppercase;
+
 }
 
 .btn-xl {
@@ -452,4 +453,15 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     height: auto;
     display: block;
     z-index: 999;
+}
+
+.custom-alvin-white-center {
+    color: white;
+    text-align: center;
+}
+
+
+.custom-alvin-white-left {
+    color: white;
+    text-align: left;
 }
