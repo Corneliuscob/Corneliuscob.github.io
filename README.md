@@ -1,3 +1,3 @@
+# Our econ project! 
 
-# Corneliuscob.github.io
-
+Dont steal it  plz 

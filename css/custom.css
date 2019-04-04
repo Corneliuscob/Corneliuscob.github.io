@@ -1,27 +1,81 @@
-/* your styles go here */
-.boxbox {
-	width: 300px;
-    /*border: 1px solid gray;*/
-    padding: 25px;
-    margin: 25px;
-    background-color:lightgray;
+.box{
+    /*Some basic styling*/
+      border: 1px solid #333;
+      width: 60px;
+      height: 60px;
+      padding-top: 15px;
+      padding-right:1px; 
+      text-align:right;
+      margin: 2px auto;
+      background: #29a7d3;
+      color: white;
+      border-radius: 50%;
+      font-family:  helvetica;
+    
+  }
+
+section.maf1 {
+position: relative;
+padding: 150px 0;
+padding-top: 100px;
 }
-#picline {
-	background-color:  #fff2cc;
-	display: inline-block;
-	overflow: hidden;
-	padding: 13px;
-}
-#volunteerclock{
-	display: inline-block;
-	overflow: hidden;x
-}
-#work{
-	display: inline-block;
-	overflow: hidden;
-	/*padding-top: 20px;*/
+section.maf1 h1{
+    font-size: 3.5rem;
+    margin-top: 0px;
+    margin-bottom: 1em;
+    }
+
+section.maf1 h2 {
+font-size: 2.5rem;
+margin-top: 0;
 }
 
+section.maf2 {
+position: relative;
+padding: 150px 0;
+padding-top: 100px;
+}
+section.maf2 h1{
+    font-size: 3.5rem;
+    margin-top: 0px;
+    margin-bottom: 1em;
+    }
 
+section.maf2 h2{
+font-size: 2.5rem;
+margin-top: 0;
+}
 
+.bh-link{
+ color:#0000FF;
+ /* float: left; */
+ display: block;
+ font-size: 2rem;
+}
+.content-container{
+    margin-left: 7.5em;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    /* margin-left: auto; */
+}
 
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: darkred; /* Set a background color */
+    color: #FFA4A4; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 14px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
