@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Initializer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <script src="jquery-3.3.1.min.js"></script>     -->
+    <style>
+
+    @media (min-width: 700px) {
+        .wrapper{
+            margin:  5em 5em 5em 5em;
+            /* padding: 1em; */
+            background-color:lightgrey; 
+            border-radius: 4px;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: center;
+            grid-auto-columns: minmax(auto,300px);
+        }
+        .container{
+            margin:  0em 5em 0em 5em;
+            padding: 2em;
+            text-align: center;
+        }
+        .center-block{
+            display: inline-block;
+            text-align: left;
+        }
+    }
+    
+    textarea {
+        width:inherit;
+    }
+    form{
+        width:inherit;
+    }
+
+    .wrapper > p:nth-child(odd) {
+        background-color: #ede;
+        color: black;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 150%;
+    }
+    .box {
+        background-color: #444;
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 150%;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="center-block">
+            <h1>Capitalizer</h1>
+            <hr> 
+            <h3>enter a sentence here to have the letters randomly capitalized</h3>
+
+            <form>
+                Input string here: <br>
+                <textarea rows="4" cols="50" name="setence" id="input-text">You need more initiative</textarea><br>
+                
+                
+            </form> 
+            <button id ="submit" onclick=submit()>Submit</button>
+        </div>
+    </div>
+
+    <div class="wrapper" id="result-text"></div>
+
+    <script>
+        // $ (document).ready(function(){
+        //     $ ('#submit').click(function(){
+        //         console.log("hi");
+        //     })
+        // })
+        function submit(){
+            var text = document.getElementById('input-text').value;
+            // console.log(text);
+            const ta = document.createElement('textarea');
+            var rando = randomCase(text);
+
+            const randomtext = document.createTextNode(rando);
+            ta.appendChild(randomtext);
+            const destination = document.getElementById('result-text');
+            destination.appendChild(ta);
+            input = destination.lastChild;
+            input.focus();
+            input.select();
+            document.execCommand('copy');
+            destination.removeChild(ta);
+
+            const p = document.createElement('p');
+            p.appendChild(randomtext);
+            p.classList.add("box")
+            destination.appendChild(p);
+        }
+        // var submit =  document.getElementById('#submit');
+
+        var randomCase=(str)=>{
+            var randomString = ""
+            for(i=0;i<str.length;i++){
+                // console.log(str.length);
+                var coin  = Math.random();
+                if(coin <0.5){
+                    var toAppend = str.charAt(i).toUpperCase()
+                }
+                else{
+                    var toAppend = str.charAt(i).toLowerCase();
+                }
+                randomString += toAppend;
+            }
+            // console.log(randomString);
+            return randomString
+        }
+
+        
+        
+         
+    
+    </script>
+</body>
+</html>
