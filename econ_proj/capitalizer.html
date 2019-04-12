@@ -3,16 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Initializer</title>
+    <title>Memeart</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.css'> -->
     <!-- <script src="jquery-3.3.1.min.js"></script>     -->
     <style>
-
+    body{
+        background-color: #202b38;
+        color:white;
+    }
     @media (min-width: 700px) {
         .wrapper{
             margin:  5em 5em 5em 5em;
             /* padding: 1em; */
-            background-color:lightgrey; 
+            background-color:#515F6F; 
             border-radius: 4px;
             display:grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -32,6 +36,9 @@
     
     textarea {
         width:inherit;
+        background-color: #384351;
+        border-radius: 10px;
+        color:white;
     }
     form{
         width:inherit;
@@ -51,14 +58,19 @@
         padding: 20px;
         font-size: 150%;
     }
+    .submit-button{
+        float:left;
+        margin-right:20px;
+    }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="center-block">
+        <div class="center-block" id = "submit-div">
             <h1>Capitalizer</h1>
             <hr> 
-            <h3>enter a sentence here to have the letters randomly capitalized</h3>
+            <h3>Enter a sentence here to have the letters randomly capitalized</h3>
+            
 
             <form>
                 Input string here: <br>
@@ -66,7 +78,8 @@
                 
                 
             </form> 
-            <button id ="submit" onclick=submit()>Submit</button>
+            <button id ="submit" onclick=submit() class="submit-button">Submit</button> 
+            
         </div>
     </div>
 
@@ -81,26 +94,46 @@
         function submit(){
             var text = document.getElementById('input-text').value;
             // console.log(text);
-            const ta = document.createElement('textarea');
+
             var rando = randomCase(text);
 
             const randomtext = document.createTextNode(rando);
-            ta.appendChild(randomtext);
             const destination = document.getElementById('result-text');
-            destination.appendChild(ta);
-            input = destination.lastChild;
+
+            copySelect(destination,randomtext);
+            addTextBox(randomtext,destination);
+            copied_notification();
+        }
+
+        // This function generates a text area  and copies that text
+        function copySelect(dstElement,textToCopy){
+            const textarea = document.createElement('textarea');
+            textarea.appendChild(textToCopy);
+            dstElement.appendChild(textarea);
+            input = dstElement.lastChild;
             input.focus();
             input.select();
             document.execCommand('copy');
-            destination.removeChild(ta);
-
-            const p = document.createElement('p');
-            p.appendChild(randomtext);
-            p.classList.add("box")
-            destination.appendChild(p);
+            dstElement.removeChild(textarea);
         }
-        // var submit =  document.getElementById('#submit');
-
+        //this function generates a div block taht says copied to clipboard
+        function copied_notification(){
+            p = document.createElement('div');
+            copied_str = 'Copied to clipboard!'
+            text = document.createTextNode(copied_str);
+            p.appendChild(text);
+            to_submit = document.getElementById('submit-div');
+            if(to_submit.lastChild.innerText !== copied_str){
+                to_submit.append(p);
+            }
+        }
+        //tis function creates a text box showing the newly created random string
+        function addTextBox(textToAdd,dstElement){
+            const p = document.createElement('p');
+            p.appendChild(textToAdd);
+            p.classList.add("box")
+            dstElement.appendChild(p);
+        }
         var randomCase=(str)=>{
             var randomString = ""
             for(i=0;i<str.length;i++){
