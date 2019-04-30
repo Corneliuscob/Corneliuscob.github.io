@@ -10,9 +10,10 @@ comments: false
 {% for me in site.about_page %}
 {{me.desc}}
 {% endfor %}
+ find a condensed pdf of my resume <a href="{{site.url}}assets/pdf/ngaito.pdf">here</a>
 </div>
 
-## Skills 
+# Skills 
 
 {% assign Skills_list = 'SolidWorks,AspenPlus,JavaScript,AutoCad,Ruby,NodeJS,EagleCAD,Python,MS Office,Arduino,Flask,VBA,MatLab' | split: "," %}
 <center>
@@ -24,7 +25,7 @@ comments: false
 </center> 
 
 
-## Work Experience
+# Work Experience
 {% for job in site.WEX %}
 
 <div class="wex-job-row">
@@ -52,7 +53,7 @@ comments: false
 {% endfor %}
 
 
-## Technical Projects 
+# Technical Projects 
 {% for project in site.tech_project %}
 
 <div class="wex-job-row">
@@ -75,22 +76,25 @@ comments: false
       </ul>
   </div>
 </div>
-
-
-
 {% endfor %}
-## Preview
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+# Conferences and Presentations
+<div class="conf-wrapper">
+{% for prezzie in site.confNpres %}
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+<div class="wex-job-row">
 
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+  <div class="wex-company-row">
+    <h3 class="conf-title">{{ prezzie.name }}</h3>
+  </div>
+  <div class="conf-descriptions">
+      <ul>
+          <li>{{ prezzie.item1 }}</li>
+          {% if prezzie.item2 %}
+            <li>{{ prezzie.item2 }}</li>
+          {% endif %}  
+      </ul>
+  </div>
+</div>
+{% endfor %}
+</div>

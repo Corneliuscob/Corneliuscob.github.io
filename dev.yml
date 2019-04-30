@@ -82,3 +82,6 @@ collections:
     output: true
   tech_project:
     output: true
+  confNpres:
+    output: true
+    

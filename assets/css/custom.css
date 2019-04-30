@@ -58,3 +58,17 @@
 .wex-duration{
     float:right;
 }
+.conf-wrapper{
+    padding-left: 2em;
+}
+.conf-title{
+    margin-top: .2em;
+    margin-bottom: 0.2em;
+}
+.conf-descriptions > ul> li{
+    max-width: 500px;
+}
+.conf-descriptions > ul{
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+}
