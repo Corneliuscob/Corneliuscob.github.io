@@ -1,8 +1,0 @@
----
-layout: page
-title: Canada Day
-permalink: /projects/
-description: Hanging out on the beach on a great day.
-img: /assets/img/album/test2.jpg
-alt: Ngai To and Friends at kitsilano
----

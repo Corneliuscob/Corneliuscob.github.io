@@ -1,8 +1,0 @@
----
-layout: page
-title: DisneyWorld!
-permalink: /projects/
-description: The Happiest Place in the World
-img: /assets/img/album/disney.jpg
-alt: Ngai To and Inez at DisneyWorld
----
