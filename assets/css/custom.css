@@ -1,0 +1,74 @@
+
+.about-post-title {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom:2rem;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: left;
+    justify-items: left;
+}
+.grid >div.in-grid{
+    padding-left: 3em;
+}
+.wex-job-row {
+
+}
+.wex-company-row{
+    clear:both;
+    display:inline;
+    overflow: hidden;
+}
+.wex-h2{
+    float:left;
+}
+.wex-div-h2{
+    display: block;
+    font-size: 1em;
+    margin-top: 1.8em;
+    margin-bottom: .4em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    float:right;
+}
+.wex-h2 > a {
+    text-decoration: none !important;
+}
+
+.wex-descriptions{
+    clear:both;
+}
+.wex-descriptions >ul> li{
+    max-width: 550px;
+}
+.wex-title-row{
+    display:block;
+    clear:both;
+    margin-bottom:1em;
+    /* margin-top:1em; */
+    overflow: hidden;
+}
+.wex-title{
+    float:left;
+}
+.wex-duration{
+    float:right;
+}
+.conf-wrapper{
+    padding-left: 2em;
+}
+.conf-title{
+    margin-top: .2em;
+    margin-bottom: 0.2em;
+}
+.conf-descriptions > ul> li{
+    max-width: 500px;
+}
+.conf-descriptions > ul{
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+}
