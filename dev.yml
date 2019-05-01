@@ -63,7 +63,7 @@ linkedin:           ngai-to-lo-7a6750129
 #hackernews:        username
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
