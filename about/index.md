@@ -10,12 +10,13 @@ comments: false
 {% for me in site.about_page %}
 {{me.desc}}
 {% endfor %}
- find a condensed pdf of my resume <a href="{{site.url}}assets/pdf/ngaito.pdf">here</a>
+ Find a condensed pdf of my resume <a target="blank" href="{{site.url}}/assets/pdf/ngaito.pdf">here</a>
 </div>
 
 # Skills 
 
 {% assign Skills_list = 'SolidWorks,AspenPlus,JavaScript,AutoCad,Ruby,NodeJS,EagleCAD,Python,MS Office,Arduino,Flask,VBA,MatLab' | split: "," %}
+<h3 style="padding-left:1.2em;">Technical</h3>
 <center>
 <div class="grid">
 {% for skill in Skills_list %}
@@ -23,6 +24,13 @@ comments: false
 {% endfor %}
 </div>  
 </center> 
+
+<h3 style="padding-left:1.2em;">Languages</h3>
+<div class="grid">
+  <div class="in-grid" > English </div>
+  <div class="in-grid" > French </div>
+  <div class="in-grid" > Cantonese </div>
+</div>
 
 
 # Work Experience
