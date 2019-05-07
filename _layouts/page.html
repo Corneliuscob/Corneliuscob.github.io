@@ -31,5 +31,9 @@ layout: compress
     <!-- MathJax -->
     <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     {% endif %}
+    {% if page.url == '/posters/' %}
+    <!-- add poster js using liquid tage variables -->
+    {% include custom_modals.html %}
+    {% endif %}
 </body>
 </html>
