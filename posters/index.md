@@ -37,13 +37,13 @@ comments: false
 ### I try to Render
 <figure class="half">  
         <a href="#" class="trigger-7">
-            <video style="max-width:100%;"  autoplay>
+            <video style="max-width:100%;"  autoplay loop>
             <source src="https://i.imgur.com/HwcQUTx.mp4" type="video/mp4">
             Your browser does not support the video tag.
             </video>
         </a>
         <a href="#" class = "trigger-8">
-            <video style="max-width:100%;" autoplay>
+            <video style="max-width:100%;" autoplay loop>
             <source src="https://imgur.com/Jpwa6U7.mp4" type="video/mp4">
             Your browser does not support the video tag.
             </video>
