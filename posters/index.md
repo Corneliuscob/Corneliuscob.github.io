@@ -11,10 +11,7 @@ comments: false
 
 
 
-<!-- Modal structure -->
-
- 
-<!-- Trigger to open Modal -->
+<!-- visible sections -->
 ### I've made a few posters
 
 <figure class="half">        
@@ -37,7 +34,26 @@ comments: false
         <figcaption>P&ID design and Mechanical assembly in AutoCad and Solidworks </figcaption>
 </figure>
 
+### I try to Render
+<figure class="half">  
+        <a href="#" class="trigger-7">
+            <video style="max-width:100%;"  autoplay>
+            <source src="https://i.imgur.com/HwcQUTx.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        </a>
+        <a href="#" class = "trigger-8">
+            <video style="max-width:100%;" autoplay>
+            <source src="https://imgur.com/Jpwa6U7.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        </a>
+        <figcaption>Trauma Apparatus and Chem E Car renders done in Solidworks</figcaption>
+</figure>
 
+
+
+<!-- Hidden sections -->
 <div id="modal"> <!-- data-iziModal-fullscreen="true"  data-iziModal-title="Welcome"  data-iziModal-subtitle="Subtitle"  data-iziModal-icon="icon-home" -->
     <!-- Modal content -->
     <img src="{{site.url}}/assets/img/opencheme.png">
@@ -68,11 +84,36 @@ comments: false
 <div id="modal5"> <!-- data-iziModal-fullscreen="true"  data-iziModal-title="Welcome"  data-iziModal-subtitle="Subtitle"  data-iziModal-icon="icon-home" -->
     <!-- Modal content -->
     <img src="{{site.url}}/assets/img/PID.png">
-    <p>TBA</p>
+    <p>In the steps to designing a plant, it is required to have a layout of the process and how materials flow and react (known as a process flow diagram [PFD]). Digrams for Piping and instrumentation (P&ID) must also be created for this purpose. Plant 3D was used for this although AutoCad could be just as easily used with the difference being pre-compiled libraries of unit operations in Plant 3D. More drawings can be found <a href = "https://figshare.com/articles/PFD-400/8081720" target = "blank">  here.</a> </p>
 </div>
 
 <div id="modal6"> <!-- data-iziModal-fullscreen="true"  data-iziModal-title="Welcome"  data-iziModal-subtitle="Subtitle"  data-iziModal-icon="icon-home" -->
     <!-- Modal content -->
-    <img src="{{site.url}}/assets/img/cerebro.png">
-    <p>I made a Solidworks render with the parts from Thorlabs to pre-visualize the apparatus before procuring the parts.</p>
+    <p>I made a Solidworks render with the parts from Thorlabs to pre-visualize the apparatus before procuring the parts. Learning to produce systematic mates and test for clearance and interference was arduous but informative.</p>
+    <img src="{{site.url}}/assets/img/qtc1.png">
+    <img src="{{site.url}}/assets/img/qtc2.png">
+    
+</div>
+
+<div id="modal7"> <!-- data-iziModal-fullscreen="true"  data-iziModal-title="Welcome"  data-iziModal-subtitle="Subtitle"  data-iziModal-icon="icon-home" -->
+    <!-- Modal content -->
+    <center>
+            <video style="max-width:600px;" autoplay>
+            <source src="https://i.imgur.com/HwcQUTx.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        </center>
+    <p>Part of the pre-visualization of my trauma apparatus. The second half can be seen <a href="https://imgur.com/a/cVkJOgb">here</a>. </p>
+</div>
+
+<div id="modal8"> <!-- data-iziModal-fullscreen="true"  data-iziModal-title="Welcome"  data-iziModal-subtitle="Subtitle"  data-iziModal-icon="icon-home" -->
+    <!-- Modal content -->
+    <center>
+        <video style="max-width:600px;" autoplay>
+        <source src="https://imgur.com/Jpwa6U7.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+    </center>
+    
+    <p>This is the Chem-E-Car render I created to be submitted for a video competition in Barcelona. You can see the full video <a href="http://www.chbe.ubc.ca/2016/11/15/ubc-chem-e-car-places-1st-aiche-2016/">here</a>.</p> 
 </div>
