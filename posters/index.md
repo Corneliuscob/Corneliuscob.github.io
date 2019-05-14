@@ -98,7 +98,7 @@ comments: false
 <div id="modal7"> <!-- data-iziModal-fullscreen="true"  data-iziModal-title="Welcome"  data-iziModal-subtitle="Subtitle"  data-iziModal-icon="icon-home" -->
     <!-- Modal content -->
     <center>
-            <video style="max-width:600px;" autoplay>
+            <video style="max-width:600px;" autoplay loop>
             <source src="https://i.imgur.com/HwcQUTx.mp4" type="video/mp4">
             Your browser does not support the video tag.
             </video>
@@ -109,7 +109,7 @@ comments: false
 <div id="modal8"> <!-- data-iziModal-fullscreen="true"  data-iziModal-title="Welcome"  data-iziModal-subtitle="Subtitle"  data-iziModal-icon="icon-home" -->
     <!-- Modal content -->
     <center>
-        <video style="max-width:600px;" autoplay>
+        <video style="max-width:600px;" autoplay loop>
         <source src="https://imgur.com/Jpwa6U7.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
