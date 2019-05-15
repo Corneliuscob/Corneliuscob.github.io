@@ -19,8 +19,8 @@ comments: false
  - The Name of the Wind by _Patrick 
  - Red Rising by _Pierce Brown_
  - Shift by _Jennifer Bradbury_
- - 15 Dogs by _Andre Alexis
-_- Turtles All the Way Down by _John Greene_
+ - 15 Dogs by _Andre Alexis_
+ - Turtles All the Way Down by _John Greene_
  - Pathfinder by _Orson Scott Card_
  - Origin by _Dan Brown_
  
