@@ -14,6 +14,7 @@ comments: false
 ## I like to read. Here are some books I've read recently.  
 
 ### Fiction
+ - Blood Mirror by _Brent Weeks_
  - Feed by _M.T Anderson_
  - The Name of the Wind by _Patrick 
  - Red Rising by _Pierce Brown_
