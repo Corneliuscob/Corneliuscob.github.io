@@ -13,11 +13,12 @@ comments: false
 
 ## I like to read.  
 ## What I'm currently reading: 
-   - Normal People by _Sally Rooney_ 
+   
 
 ## Here are some books I've read recently. 
 
 ### Fiction
+ - Normal People by _Sally Rooney_ 
  - Blood Mirror by _Brent Weeks_
  - Feed by _M.T Anderson_
  - The Name of the Wind by _Patrick 
@@ -27,8 +28,6 @@ comments: false
  - Turtles All the Way Down by _John Greene_
  - Pathfinder by _Orson Scott Card_
  - Origin by _Dan Brown_
- 
-
 ### Non-fiction
  - 12 Rules of Life by _Jordan Peterson_
  - The Subtle Art of Not Giving a F*ck by _Mark Manson_
