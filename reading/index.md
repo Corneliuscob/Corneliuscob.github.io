@@ -11,19 +11,23 @@ comments: false
 <h3>- Gary Provost</h3>
 </div>
 
-## I like to read. Here are some books I've read recently.  
+## I like to read.  
+## What I'm currently reading: 
+   
+
+## Here are some books I've read recently. 
 
 ### Fiction
+ - Normal People by _Sally Rooney_ 
+ - Blood Mirror by _Brent Weeks_
  - Feed by _M.T Anderson_
  - The Name of the Wind by _Patrick 
  - Red Rising by _Pierce Brown_
  - Shift by _Jennifer Bradbury_
- - 15 Dogs by _Andre Alexis
-_- Turtles All the Way Down by _John Greene_
+ - 15 Dogs by _Andre Alexis_
+ - Turtles All the Way Down by _John Greene_
  - Pathfinder by _Orson Scott Card_
  - Origin by _Dan Brown_
- 
-
 ### Non-fiction
  - 12 Rules of Life by _Jordan Peterson_
  - The Subtle Art of Not Giving a F*ck by _Mark Manson_
