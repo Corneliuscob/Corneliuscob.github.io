@@ -11,7 +11,11 @@ comments: false
 <h3>- Gary Provost</h3>
 </div>
 
-## I like to read. Here are some books I've read recently.  
+## I like to read.  
+## What I'm currently reading: 
+   - Normal People by _Sally Rooney_ 
+
+## Here are some books I've read recently. 
 
 ### Fiction
  - Blood Mirror by _Brent Weeks_
