@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jamie Ngai To Lo
-tags: [about, Jekyll, theme, moon]
+tags: [Ngai to resume, Solidworks, P&ID,PID,PFD,Research,Chemical Engineering, UBC]
 date: 2016-03-21
 comments: false
 ---

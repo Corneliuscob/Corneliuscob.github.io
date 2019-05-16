@@ -1,7 +1,7 @@
 ---
 layout: about_wrapper
 title: Reading List
-tags: [about, Jekyll, theme, moon]
+tags: [Reading,books,authors,ngai to reads]
 date: 2016-03-21
 comments: false
 ---
