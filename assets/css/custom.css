@@ -1,4 +1,5 @@
 
+
 .about-post-title {
 	text-align: center;
 	font-weight: bold;
@@ -11,9 +12,63 @@
     align-items: left;
     justify-items: left;
 }
-.grid >div.in-grid{
-    padding-left: 3em;
+ /* only seen in big */
+@media only screen and (min-width: 600px) {
+    .grid >div.in-grid{
+        padding-left: 3em;
+    }
+    .sub-header-three{
+        padding-left:1.2em;
+    }
+    .sub-header-bio{
+        padding:4em;padding-top:1em;
+    }
+    .wex-div-h2{
+        display: block;
+        font-size: 1em;
+        margin-top: 1.8em;
+        margin-bottom: .4em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
+        float:right;
+    }
+    .wex-h2{
+        float:left;
+    }
+    .wex-duration{
+        float:right;
+    }
+    .wex-descriptions{
+        clear:both;
+    }
+    .conf-wrapper{
+        padding-left: 2em;
+    }
 }
+/* only see n in small  */
+@media only screen and (max-width: 600px) {
+    .wex-descriptions >ul {
+        padding-left: .8em;;
+    }
+    .wex-descriptions{
+        clear:both;
+        font-size: 11px;
+    }
+    .wex-h2{
+    margin-bottom:0;
+    clear:both;
+    }
+    .conf-descriptions > ul{
+        padding-left:0.8em;
+    }
+    .conf-descriptions > ul>li{
+        font-size:11px;
+    }
+}
+
+
+/* normal css  */
 .wex-job-row {
 
 }
@@ -22,18 +77,14 @@
     display:inline;
     overflow: hidden;
 }
-.wex-h2{
-    float:left;
-}
+
 .wex-div-h2{
     display: block;
     font-size: 1em;
-    margin-top: 1.8em;
     margin-bottom: .4em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-    float:right;
 }
 .wex-h2 > a {
     text-decoration: none !important;
@@ -56,10 +107,10 @@
     float:left;
 }
 .wex-duration{
-    float:right;
+    font-size: 12px;
 }
 .conf-wrapper{
-    padding-left: 2em;
+    
 }
 .conf-title{
     margin-top: .2em;

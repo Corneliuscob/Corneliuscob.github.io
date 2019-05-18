@@ -6,7 +6,7 @@ date: 2016-03-21
 comments: false
 ---
     
-<div style="padding:4em;padding-top:1em;">
+<div class = "sub-header-bio">
 {% for me in site.about_page %}
 {{me.desc}}
 {% endfor %}
@@ -16,7 +16,7 @@ comments: false
 # Skills 
 
 {% assign Skills_list = 'SolidWorks,AspenPlus,JavaScript,AutoCad,Ruby,NodeJS,EagleCAD,Python,MS Office,Arduino,Flask,VBA,MatLab' | split: "," %}
-<h3 style="padding-left:1.2em;">Technical</h3>
+<h3 class="sub-header-three">Technical</h3>
 <center>
 <div class="grid">
 {% for skill in Skills_list %}
@@ -25,7 +25,7 @@ comments: false
 </div>  
 </center> 
 
-<h3 style="padding-left:1.2em;">Languages</h3>
+<h3 class = "sub-header-three">Languages</h3>
 <div class="grid">
   <div class="in-grid" > English </div>
   <div class="in-grid" > French </div>

@@ -15,7 +15,7 @@ comments: false
 ## What I'm currently reading: 
  -Conversation with Friends by _Sally Rooney_
  
-## Here are some books I've read recently. 
+## Here are some books I've read. 
 
 ### Fiction
  - Normal People by _Sally Rooney_ 
@@ -28,9 +28,16 @@ comments: false
  - Turtles All the Way Down by _John Greene_
  - Pathfinder by _Orson Scott Card_
  - Origin by _Dan Brown_
-### Non-fiction
+
+### Less-fiction
  - 12 Rules of Life by _Jordan Peterson_
  - The Subtle Art of Not Giving a F*ck by _Mark Manson_
  - The Drunkard's Walk by _Leonard Mlodinow_
  - Unlocking the Atom by _David Phillip Jackson_
  - Innumeracy by _John Allen Paulos_
+
+### No-fiction (I actually enjoy these ones)
+ - Practical Electronics for Inventors by _Scherz Monk_
+ - An Introduction to Interfaces and Colloids by _John Berg_
+ - Process Dynamics and Control by _Dale Seborg et al._
+ - Excel 2016 VBA and Macros by _Bill Jelen and Tracy Syrstad_
